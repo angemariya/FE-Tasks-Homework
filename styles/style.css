@@ -1,0 +1,42 @@
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+img {
+    width: 100%;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+p {
+    margin-bottom: 10px;
+}
+button {
+    border: none;
+    text-align: center;
+    margin: 0 auto;
+    background-color: gray;
+    padding: 15px 35px;
+    width: 100%;
+    color: white;
+    margin: 0 auto;
+}
+
+button:hover {
+    background-color: black;
+}
+
+.card {
+    width: 30%;
+    box-shadow: 0 10px 10px 0;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+}
+
+.card-wrapper {
+    padding: 0 30px;
+    width: auto; 
+}
